@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
         bntloading.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                progressDialog = new ProgressDialog(MainActivity.this);
-                progressDialog.setTitle("Loading");
-                progressDialog.setMessage("Loading ...");
-                progressDialog.setIndeterminate(false);
-                progressDialog.setCancelable(false);
-                progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                progressDialog.show();
+//                progressDialog = new ProgressDialog(MainActivity.this);
+//                progressDialog.setTitle("Loading");
+//                progressDialog.setMessage("Loading ...");
+//                progressDialog.setIndeterminate(false);
+//                progressDialog.setCancelable(false);
+//                progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+//                progressDialog.show();
             }
         });
     }
