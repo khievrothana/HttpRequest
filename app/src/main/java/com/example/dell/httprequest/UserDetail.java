@@ -38,7 +38,7 @@ public class UserDetail extends AppCompatActivity {
     }
 
 
-    //this class use for load all users data
+    //this class use for load all users
     class LoadDetailUser extends AsyncTask<String, String, String>{
 
         @Override
